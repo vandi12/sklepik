@@ -1,0 +1,203 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+background: url(./xd.jpg);
+position:
+
+}
+
+
+
+#wrapper {
+    max-width: 1000px;
+	height: 1250px;
+
+    margin: 0 auto ;
+   
+    background-color: 		#DCDCDC;
+}
+
+	
+
+#imgHeader {
+    width: 100%;
+    display: block;
+	
+}
+@keyframes aside1 {
+from {left:-850px;}
+to {left:0px;}
+}
+aside {
+text-align: right;
+}
+aside span {
+position: relative;
+animation: aside1 5s alternate infinite;
+}
+.home.main p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+nav {
+    overflow: hidden;
+	
+}
+.lol {
+	position: absolute;
+        top: 65%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.lol2 {
+	position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.lol3 {
+	position: absolute;
+        top: 150%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+		
+}
+.lol4 {
+	position: absolute;
+        top: 135%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.lol5 {
+	position: absolute;
+        top: 125%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.ramka {
+	background: no-repeat top;
+	padding-top: 12px;
+	width: 250px;
+	
+	
+}
+
+.ramka_pojemnik {
+	background: no-repeat bottom;
+	padding-bottom: 12px;
+}
+
+.ramka_zawartosc {
+	background: #808080 repeat-y center;
+	padding: 0 12px;
+	
+	
+}
+
+nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: grey;
+    padding: 15px 30px;
+    font-size: 20px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+nav a:hover {
+    background-color: #00BFFF;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    margin: 0 10%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+@media (max-width:800px) {
+    nav a {
+        width: 50%;
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:500px) {
+    nav a {
+        width: 100%;
+    }
+}
+
+
+
+
+img.left {
+    float: left;
+    width: 25%;
+    padding: 0px 10px 10px 0px;
+    border-radius: 50% 30%;
+}
+
+
+
+#wrapper iframe {
+    width: 100%;
+    margin-top: 20px;
+}
+
+article {
+    padding: 0 20px;
+}
+
+footer {
+	width: 1000px;
+    height: 40px;
+    background-color: 		#DCDCDC;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.active {
+    background-color: 	#A9A9A9;
+}
+
+.main {
+    margin-top: 30px;
+}
+.2{
+	width: auto;
+	margin: 1%;
+	text-align: center;
+	border: 1px solid #ffffff;
+	float: left;
+}
